@@ -133,11 +133,11 @@ fill: linear-gradient(90deg, rgba(192, 204, 218, 0.10) 0%, rgba(192, 204, 218, 0
 
 
 .popular-collections{ 
-    
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
 }
-.container{ 
-   
-}
+
 .popular-collection-heading{
     text-align: center;
     padding-top: 80px;
@@ -150,14 +150,11 @@ font-size: 28px;
 font-weight: 600;
 line-height: 70px; /* 250% */
 }
-.collections{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
-  
+.container{ 
+  display: grid;
+  grid-template-columns: repeat(3,1fr); 
 }
+
 .collection{
 
 }
