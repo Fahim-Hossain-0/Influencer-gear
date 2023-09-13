@@ -21,13 +21,14 @@ header {
 }
 
 .logo {
+
+}
+
+.header-logo h2 {
   color: #3a3a3a;
   font-family: "Poppins", sans-serif;
   font-size: 24px;
   font-weight: 700;
-}
-
-.logo h2 {
 }
 
 .menu {
@@ -104,10 +105,11 @@ main {
   background-image: url(images/Circle\ design.svg);
   background-repeat: no-repeat;
   background-size: contain;
-
+  /* width: 100%; */
 }
 
 .main-img-area img {
+  width: 100%;
 }
 
 /* main */
@@ -251,9 +253,7 @@ hr {
 }
 
 .contain {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
   width: 80%;
 }
 
@@ -261,19 +261,23 @@ hr {
   display: flex;
   align-items: center;
   column-gap: 80px;
+  /* width: 100%; */
+
 }
 
 .feature-banner {
+  /* width: 100%; */
 }
 
 .feature-banner img {
-  width: 404px;
-  height: 270px;
+  /* width: 404px;
+  height: 270px; */
+  width: 100%;
   border-radius: 7px;
 }
 
 .feature-info {
-
+/* width: 100%; */
 }
 
 .feature-info h2 {
@@ -340,7 +344,7 @@ footer {
   margin: 5px 0;
 }
 
-.logo {
+.footer-logo {
   margin: 15px;
 }
 
