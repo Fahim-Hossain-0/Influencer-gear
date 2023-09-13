@@ -259,6 +259,7 @@ hr {
 
 .feature {
   display: flex;
+  align-items: center;
   column-gap: 80px;
 }
 
@@ -272,7 +273,7 @@ hr {
 }
 
 .feature-info {
-  
+
 }
 
 .feature-info h2 {
