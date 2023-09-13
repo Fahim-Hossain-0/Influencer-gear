@@ -7,6 +7,7 @@
 
 /* header */
 header {
+  padding-top: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -228,7 +229,8 @@ hr {
 .popular-btn {
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: flex-end;
+  width: 85%;
   margin: 50px 0;
 }
 
@@ -256,8 +258,7 @@ hr {
 }
 
 .feature {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
   column-gap: 80px;
 }
 
@@ -271,6 +272,7 @@ hr {
 }
 
 .feature-info {
+  
 }
 
 .feature-info h2 {
@@ -288,6 +290,7 @@ hr {
   font-size: 16px;
   font-weight: 700;
   line-height: 28px;
+  margin: 10px 0;
 }
 
 .feature-btn {
@@ -311,7 +314,7 @@ footer {
   align-items: center;
   justify-content: center;
   background-color: #0a0826;
-  padding: 60px 0;
+  padding: 40px 0;
 }
 
 .footer {
