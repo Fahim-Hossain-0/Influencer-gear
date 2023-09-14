@@ -270,9 +270,8 @@ hr {
 }
 
 .feature-banner img {
-  /* width: 404px;
-  height: 270px; */
-  width: 100%;
+  width: 404px;
+  height: 270px;
   border-radius: 7px;
 }
 
